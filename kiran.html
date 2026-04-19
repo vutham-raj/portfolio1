@@ -1,0 +1,348 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kiran KN | Portfolio</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+tailwind.config = {
+theme:{
+extend:{
+colors:{
+dark:"#121212",
+text:"#E0E0E0",
+accent:"#00FFFF"
+}
+}
+}
+}
+</script>
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+.reveal{
+opacity:0;
+transform:translateY(40px);
+transition:all .8s ease;
+}
+
+.reveal.active{
+opacity:1;
+transform:translateY(0);
+}
+
+</style>
+
+</head>
+
+<body class="bg-dark text-text font-sans">
+
+<!-- NAVBAR -->
+
+<nav class="fixed w-full bg-dark border-b border-gray-800 z-50">
+
+<div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+
+<h1 class="text-accent font-bold text-xl">
+Kiran KN
+</h1>
+
+<div class="space-x-6 hidden md:flex">
+
+<a href="#projects" class="hover:text-accent">Projects</a>
+<a href="#about" class="hover:text-accent">About</a>
+<a href="#contact" class="hover:text-accent">Contact</a>
+
+</div>
+
+</div>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="min-h-screen flex flex-col md:flex-row justify-center items-center gap-10 px-6 text-center md:text-left">
+
+<img src="C:\Users\hp\Documents\java\portfoliok\profile.png.jpeg"
+alt="Kiran KN"
+class="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover border-4 border-accent shadow-[0_0_30px_#00FFFF]">
+
+<div>
+
+<h1 class="text-4xl md:text-6xl font-bold mb-4">
+
+Hi, I'm <span class="text-accent">Kiran KN</span>
+
+</h1>
+
+<p class="text-lg md:text-xl max-w-xl mb-6">
+
+Customer Support Advisor passionate about analytics, digital technology, and solving real-world problems using technical knowledge and communication.
+
+</p>
+
+<a href="#projects"
+class="bg-accent text-black px-6 py-3 rounded-lg font-semibold hover:scale-105 transition">
+
+View My Work
+
+</a>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="py-20 bg-[#181818]">
+
+<div class="max-w-5xl mx-auto text-center px-6">
+
+<h2 class="text-3xl font-bold mb-8">
+
+About Me
+
+</h2>
+
+<p class="text-gray-400 leading-relaxed">
+
+To obtain a challenging position in a growth-oriented organization where I can utilize my technical knowledge, communication skills, and experience in customer support to build a successful career in analytics and digital technology.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- EXPERIENCE -->
+
+<section class="py-20 px-6 max-w-5xl mx-auto">
+
+<h2 class="text-3xl font-bold text-center mb-12">
+
+Professional Experience
+
+</h2>
+
+<div class="reveal bg-[#1a1a1a] p-6 rounded-xl">
+
+<h3 class="text-accent text-xl font-semibold">
+
+Customer Support Advisor – Concentrix
+
+</h3>
+
+<p class="text-gray-400 mb-3">
+
+July 2015 – March 2026
+
+</p>
+
+<p>
+
+Handled blended customer support for Google, YouTube TV and NFL Sunday Ticket through chat, email and calls. Focused on customer acquisition, retention, servicing and improving customer satisfaction.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="py-20 bg-[#181818]">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-3xl font-bold text-center mb-12">
+
+Projects
+
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="reveal bg-[#1a1a1a] p-6 rounded-xl hover:-translate-y-3 transition">
+
+<h3 class="text-accent font-semibold text-lg mb-3">
+
+SEO Web Analysis
+
+</h3>
+
+<p>
+
+Performed SEO analysis and web traffic monitoring using analytical tools.
+
+</p>
+
+</div>
+
+<div class="reveal bg-[#1a1a1a] p-6 rounded-xl hover:-translate-y-3 transition">
+
+<h3 class="text-accent font-semibold text-lg mb-3">
+
+Customer Support Analytics
+
+</h3>
+
+<p>
+
+Analyzed customer issues and service performance to improve response efficiency.
+
+</p>
+
+</div>
+
+<div class="reveal bg-[#1a1a1a] p-6 rounded-xl hover:-translate-y-3 transition">
+
+<h3 class="text-accent font-semibold text-lg mb-3">
+
+Linux Troubleshooting
+
+</h3>
+
+<p>
+
+Hands-on experience with system troubleshooting, networking basics and software installation.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- SKILLS -->
+
+<section class="py-20 px-6 max-w-6xl mx-auto text-center">
+
+<h2 class="text-3xl font-bold mb-10">
+
+Skills
+
+</h2>
+
+<div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+
+<div class="reveal bg-[#1a1a1a] p-4 rounded-lg">HTML</div>
+<div class="reveal bg-[#1a1a1a] p-4 rounded-lg">SQL</div>
+<div class="reveal bg-[#1a1a1a] p-4 rounded-lg">SEO Analysis</div>
+<div class="reveal bg-[#1a1a1a] p-4 rounded-lg">Manual Testing</div>
+<div class="reveal bg-[#1a1a1a] p-4 rounded-lg">Linux</div>
+<div class="reveal bg-[#1a1a1a] p-4 rounded-lg">Networking</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="py-20 bg-[#181818]">
+
+<div class="max-w-xl mx-auto text-center px-6">
+
+<h2 class="text-3xl font-bold mb-8">
+
+Contact
+
+</h2>
+
+<p class="text-gray-400 mb-2">
+
+📞 +91 81479 68323
+
+</p>
+
+<p class="text-gray-400 mb-6">
+
+✉️ digitalkirankn@gmail.com
+
+</p>
+
+<form class="space-y-4">
+
+<input type="text" placeholder="Your Name"
+class="w-full p-3 rounded bg-[#1a1a1a] border border-gray-700 focus:border-accent outline-none">
+
+<input type="email" placeholder="Email"
+class="w-full p-3 rounded bg-[#1a1a1a] border border-gray-700 focus:border-accent outline-none">
+
+<textarea rows="5" placeholder="Message"
+class="w-full p-3 rounded bg-[#1a1a1a] border border-gray-700 focus:border-accent outline-none"></textarea>
+
+<button class="bg-accent text-black px-6 py-3 rounded-lg hover:scale-105 transition">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+
+<footer class="text-center py-6 border-t border-gray-800 text-gray-500">
+
+© 2026 Kiran KN Portfolio
+
+</footer>
+
+
+
+<script>
+
+function reveal(){
+
+let reveals=document.querySelectorAll(".reveal");
+
+for(let i=0;i<reveals.length;i++){
+
+let windowHeight=window.innerHeight;
+
+let elementTop=reveals[i].getBoundingClientRect().top;
+
+let elementVisible=100;
+
+if(elementTop < windowHeight - elementVisible){
+
+reveals[i].classList.add("active");
+
+}
+
+}
+
+}
+
+window.addEventListener("scroll",reveal);
+
+</script>
+
+</body>
+</html>
+```
